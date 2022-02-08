@@ -166,7 +166,7 @@ class EventDataResponse(Base):
 
 
 class EventAttributes(Base):
-    def __init__(self, category=None, title=None, all_day=None, start_at=None, start_timezone=None, end_at=None, end_timezone=None, recurrence=None, recurring_uuid=None, description=None, location=None, url=None, updated_at=None, created_at=None):
+    def __init__(self, category=None, title=None, all_day=None, start_at=None, start_timezone=None, end_at=None, end_timezone=None, recurrence=None, recurring_uuid=None, description=None, location=None, location_lat=None, location_lon=None, url=None, updated_at=None, created_at=None):
 
         super(EventAttributes, self).__init__()
 
